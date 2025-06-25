@@ -7,6 +7,7 @@ package goclamav
 /*
 #include <clamav.h>
 #include <stdlib.h>
+#cgo LDFLAGS: -lclamav
 */
 import "C"
 import (

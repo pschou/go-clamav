@@ -129,6 +129,18 @@ func Strerr(code ErrorCode) error {
 	return err
 }
 
+// Get the ClamAV version string.
+//
+// E.g. clamav-0.100.0-beta
+func Retver() string {
+	return C.GoString(C.cl_retver())
+}
+
+// Get the DB Dir
+func Retdbdir() string {
+	return C.GoString(C.cl_retdbdir())
+}
+
 /* db options */
 // clang-format off
 type DBOptions uint
