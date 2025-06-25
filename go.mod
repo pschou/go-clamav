@@ -1,3 +1,3 @@
-module github.com/ca110us/go-clamav
+module github.com/pschou/go-clamav
 
-go 1.18
+go 1.24.4

@@ -13,7 +13,7 @@ tar -zxvf cmake-3.21.5-linux-x86_64.tar.gz -C /usr/local/
 ln -s /usr/local/cmake-3.21.5-linux-x86_64/bin/cmake /usr/bin/cmake
 rm -rf cmake-3.21.5-linux-x86_64.tar.gz
 
-git clone --depth 1 https://github.com/ca110us/clamav-mussels-cookbook.git
+git clone --depth 1 https://github.com/pschou/clamav-mussels-cookbook.git
 cd clamav-mussels-cookbook
 rm -rf  mussels/* &> /dev/null
 mkdir mussels &> /dev/null

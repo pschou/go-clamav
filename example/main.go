@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	clamav "github.com/ca110us/go-clamav"
+	clamav "github.com/pschou/go-clamav"
 )
 
 func main() {

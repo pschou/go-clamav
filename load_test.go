@@ -5,7 +5,7 @@ import (
 	"log"
 	"testing"
 
-	clamav "github.com/ca110us/go-clamav"
+	clamav "github.com/pschou/go-clamav"
 )
 
 func TestInit(t *testing.T) {

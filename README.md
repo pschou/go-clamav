@@ -1,5 +1,5 @@
 # go-clamav
-[![GoDoc](https://pkg.go.dev/badge/github.com/ca110us/go-clamav?status.svg)](https://pkg.go.dev/github.com/ca110us/go-clamav?tab=doc)
+[![GoDoc](https://pkg.go.dev/badge/github.com/pschou/go-clamav?status.svg)](https://pkg.go.dev/github.com/pschou/go-clamav?tab=doc)
 
 go-clamav is go wrapper for [libclamav](https://docs.clamav.net/manual/Development/libclamav.html)
 
@@ -45,7 +45,7 @@ package main
 import (
 	"fmt"
 
-	clamav "github.com/ca110us/go-clamav"
+	clamav "github.com/pschou/go-clamav"
 )
 
 func main() {
