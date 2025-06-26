@@ -26,7 +26,7 @@ func TestInit(t *testing.T) {
 func ExampleRetver() {
 	fmt.Println(clamav.Retver())
 
-	// Output:
+	// Example output:
 	// 1.0.8
 }
 
